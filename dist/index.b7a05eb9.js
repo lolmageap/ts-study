@@ -577,6 +577,56 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
 let hello = "123";
 hello = "1234";
 console.log(hello);
+const userA = {
+    name: "Heropy",
+    age: 25,
+    isValid: false,
+    email: null
+};
+const userB = {
+    name: "Neo",
+    age: 52,
+    isValid: true,
+    email: "email@email.email"
+};
+// function
+const add = function(x, y) {
+    return x + y;
+};
+const a = add(1, 2);
+const prints = function() {
+    console.log("Hello world");
+};
+// void 
+const h = prints();
+console.log(h);
+// any
+let anything = "Hello world";
+// unknown
+const unknown = 123;
+// Never , 아무것도 할당 할 수 없음
+// const nev: never [] = []
+const nev = [];
+// nev.push(3);
+// union
+let union;
+union = "a";
+union = [
+    3
+];
+let union2;
+union2 = [
+    "a",
+    5
+];
+union2 = [
+    3
+];
+const heropy = {
+    name: "Heropy",
+    age: 85,
+    isValid: true
+};
 
 },{}]},["fUTXd","jeorp"], "jeorp", "parcelRequire7b55")
 
